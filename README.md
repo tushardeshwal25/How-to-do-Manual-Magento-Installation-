@@ -4,23 +4,23 @@ Magento installation process is similar to other popular site platforms. Magento
 These are the steps for manual installation of magento: 
 
 1. First, we have to download the package of magento installation 
-2. 
+
 2. 2. Secondly,  the Magento files should be uploaded to server 
-3. 
+ 
 3. 3. Thirdly make a Mysql database which can later be used by Magento 
-4. 
+ 
 4. 4. Fourthly, carefully carry out Magento installation process  
-5. 
+
 6. Step 1: The first thing to do in manual installation of magento is to download Magento installation package from official magento website.   
-7. 
+
 8. Step 2: Through the control panel, one must upload installation package on the hosting account. It can be done either using a file transfer protocol client or file manager. If magento installation is considered as primary for your domain then we can extract the content of the installation package in public-html folder. Otherwise you can extract the content to public-html/store/. Once the package is uploaded, you can extract it from control panel →file manager.    
-8. 
+
 9. Step 3: After creating MySQL database, assign user through the control panel and select MySQL databases. During the script installation one need to remember database details.  
-10. 
+ 
 11. Step 4: Go through the process of Magento installation 
-10. 
+
 11. After uploading and extracting the package, we will have a Mysql database. Here we need to navigate http://yoursite.com/store. Click on “I agree to the terms and conditions” and press continue button. Next we need to enter the details regarding database like name of the database, name of the user and password of the user.   Other options must be completed. “Skip Base URL validation before next step” this option must be checked on. 
-12. 
+
 13. After that you can click continue option for proceeding further. Here you should enter the personal information and the details regarding admin login which you want to use. Encryption key field can be left empty and the script and the script will generate one for you. Again click the continue button.   The` final step is to write your encryption key.  Magento Setup uses this encryption key to encrypt credit card details, passwords and other confidential information.     
-14. 
+
 15. After following all these steps, Magento installation will be successfully completed. One can either navigate to Frontend or Backend after the installation.
