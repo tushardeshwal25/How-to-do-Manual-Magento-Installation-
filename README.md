@@ -2,16 +2,22 @@
 Magento installation process is similar to other popular site platforms. Magento is a complete solution for almost every e-commerce platform. There are two ways in which installation of Magento can be done. But Softaculous autoinstaller available in c-panel is the fastest and easiest one to use for Magento installation.  
 
 These are the steps for manual installation of magento: 
+
 1. First, we have to download the package of magento installation 
+2. 
 2. 2. Secondly,  the Magento files should be uploaded to server 
+3. 
 3. 3. Thirdly make a Mysql database which can later be used by Magento 
+4. 
 4. 4. Fourthly, carefully carry out Magento installation process  
 5. 
 6. Step 1: The first thing to do in manual installation of magento is to download Magento installation package from official magento website.   
 7. 
 8. Step 2: Through the control panel, one must upload installation package on the hosting account. It can be done either using a file transfer protocol client or file manager. If magento installation is considered as primary for your domain then we can extract the content of the installation package in public-html folder. Otherwise you can extract the content to public-html/store/. Once the package is uploaded, you can extract it from control panel →file manager.    
 8. 
-9. Step 3: After creating MySQL database, assign user through the control panel and select MySQL databases. During the script installation one need to remember database details.   Step 4: Go through the process of Magento installation 
+9. Step 3: After creating MySQL database, assign user through the control panel and select MySQL databases. During the script installation one need to remember database details.  
+10. 
+11. Step 4: Go through the process of Magento installation 
 10. 
 11. After uploading and extracting the package, we will have a Mysql database. Here we need to navigate http://yoursite.com/store. Click on “I agree to the terms and conditions” and press continue button. Next we need to enter the details regarding database like name of the database, name of the user and password of the user.   Other options must be completed. “Skip Base URL validation before next step” this option must be checked on. 
 12. 
